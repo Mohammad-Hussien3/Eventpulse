@@ -1,0 +1,23 @@
+# --- Django Core ---
+Django>=5.0,<6.0
+djangorestframework==3.16.1
+django-cors-headers==4.9.0 
+
+# --- Database (PostgreSQL) ---
+psycopg2-binary               
+
+# --- Caching & Redis ---
+redis==5.0.1                 
+django-redis==5.4.0 
+
+# --- Async Tasks (Celery) ---
+celery==5.3.6
+django-celery-results==2.5.1
+django-celery-beat==2.6.0        
+
+# --- Environment & Utils ---
+python-dotenv==1.2.1       
+requests==2.31.0                 
+Pillow>=10.0.0                   
+# --- Production Server ---
+gunicorn==21.2.0
